@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 
         String url = "jdbc:mysql://localhost:3306/shopping_mall";
         String username = "root";
-        String password = "TIGER";
+        String password = "YOUR_PASSWORD";
 
         try {
             Connection con = DriverManager.getConnection(
